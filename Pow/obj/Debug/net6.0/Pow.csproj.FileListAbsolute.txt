@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\Tasks\Pow\bin\Debug\net6.0\Pow.exe
+C:\Users\user\source\repos\Tasks\Pow\bin\Debug\net6.0\Pow.deps.json
+C:\Users\user\source\repos\Tasks\Pow\bin\Debug\net6.0\Pow.runtimeconfig.json
+C:\Users\user\source\repos\Tasks\Pow\bin\Debug\net6.0\Pow.dll
+C:\Users\user\source\repos\Tasks\Pow\bin\Debug\net6.0\Pow.pdb
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\Pow.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\Pow.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\Pow.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\Pow.AssemblyInfo.cs
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\Pow.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\Pow.dll
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\refint\Pow.dll
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\Pow.pdb
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\Pow.genruntimeconfig.cache
+C:\Users\user\source\repos\Tasks\Pow\obj\Debug\net6.0\ref\Pow.dll

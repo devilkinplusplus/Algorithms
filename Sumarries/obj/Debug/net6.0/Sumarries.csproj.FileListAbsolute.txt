@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\Tasks\Sumarries\bin\Debug\net6.0\Sumarries.exe
+C:\Users\user\source\repos\Tasks\Sumarries\bin\Debug\net6.0\Sumarries.deps.json
+C:\Users\user\source\repos\Tasks\Sumarries\bin\Debug\net6.0\Sumarries.runtimeconfig.json
+C:\Users\user\source\repos\Tasks\Sumarries\bin\Debug\net6.0\Sumarries.dll
+C:\Users\user\source\repos\Tasks\Sumarries\bin\Debug\net6.0\Sumarries.pdb
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\Sumarries.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\Sumarries.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\Sumarries.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\Sumarries.AssemblyInfo.cs
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\Sumarries.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\Sumarries.dll
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\refint\Sumarries.dll
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\Sumarries.pdb
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\Sumarries.genruntimeconfig.cache
+C:\Users\user\source\repos\Tasks\Sumarries\obj\Debug\net6.0\ref\Sumarries.dll
