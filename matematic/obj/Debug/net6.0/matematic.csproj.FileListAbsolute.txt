@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\Tasks\matematic\bin\Debug\net6.0\matematic.exe
+C:\Users\user\source\repos\Tasks\matematic\bin\Debug\net6.0\matematic.deps.json
+C:\Users\user\source\repos\Tasks\matematic\bin\Debug\net6.0\matematic.runtimeconfig.json
+C:\Users\user\source\repos\Tasks\matematic\bin\Debug\net6.0\matematic.dll
+C:\Users\user\source\repos\Tasks\matematic\bin\Debug\net6.0\matematic.pdb
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\matematic.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\matematic.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\matematic.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\matematic.AssemblyInfo.cs
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\matematic.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\matematic.dll
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\refint\matematic.dll
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\matematic.pdb
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\matematic.genruntimeconfig.cache
+C:\Users\user\source\repos\Tasks\matematic\obj\Debug\net6.0\ref\matematic.dll

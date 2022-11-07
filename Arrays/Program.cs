@@ -68,3 +68,54 @@ foreach (var item in array)
 }
 
 #endregion
+int[] array3 = { 213, 44, 512, 21, 56, 78 };
+
+#region Delete value from array
+//DeleteFromArray(array3,1);
+void DeleteFromArray<T>(ref T[] arr,int index)
+{
+    T[] newArray = new T[arr.Length - 1];
+
+    for (int i = 0; i < index; i++)
+    {
+        newArray[i] = arr[i];
+    }
+    for (int i = index; i < arr.Length-1; i++)
+    {
+        newArray[i] = arr[i+1];
+
+    }
+    arr = newArray;
+}
+Console.WriteLine("delete nth index");
+DeleteFromArray(ref array3, 3);
+foreach (var item in array3)
+{
+    Console.WriteLine(item);
+}
+#endregion
+
+
+
+int[] array2 = { 213, 44, 512, 21, 56, 78 };
+
+#region Nth smallest number
+
+int NthSmallest(int[] array,int n)
+{
+    for (int i = 0; i < array.Length-1; i++)
+    {
+        for (int j = 0; j < array.Length-1-i; j++)
+        {
+            if (array[j + 1] < array[j])
+            {
+                int temp = array[j + 1];
+                array[j + 1] = array[j];
+                array[j] = temp;
+            }
+        }
+    }
+    return array[n-1];
+}
+Console.WriteLine("Nth smallest "+NthSmallest(array2,4));
+#endregion

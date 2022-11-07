@@ -8,12 +8,11 @@ int Power(int num, int pow)
     }
     return result;
 }
-Console.WriteLine(Power(3, 4));
+//Console.WriteLine(Power(3, 4));
 #endregion
 
 
 #region Advanced power function
-Console.WriteLine();
 //PowerAdvanced(32,1/5) => 2
 double PowerAdvanced(double num, double pow)
 {
@@ -36,5 +35,22 @@ double PowerAdvanced(double num, double pow)
     return result;
 }
 
-Console.WriteLine(PowerAdvanced(3, -2));
+//Console.WriteLine(PowerAdvanced(3, -2));
+#endregion
+
+#region isSquare
+
+bool IsSquare(int n)
+{
+    bool result = false;
+    double sqrt = Math.Sqrt(n);
+    double floor= Math.Floor(sqrt);
+    if (sqrt-floor==0)
+    {
+        result = true;
+    }
+    return result;
+}
+Console.WriteLine(IsSquare(22));
+
 #endregion
