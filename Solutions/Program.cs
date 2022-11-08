@@ -22,7 +22,7 @@ Console.WriteLine(HasUniqueChars("hola"));
 #region Remove Vowels
 string Disemvowel(string str)
 {
-    char[] vowel = { 'a', 'e', 'i', 'u', 'o','A','E','I','U','O' };
+    char[] vowel = { 'a', 'e', 'i', 'u', 'o', 'A', 'E', 'I', 'U', 'O' };
     char[] strArray = str.ToCharArray();
     string newString = string.Empty;
     for (int i = 0; i < str.Length; i++)
@@ -62,4 +62,72 @@ int GetVowelCount(string str)
     return vowelCount;
 }
 Console.WriteLine(GetVowelCount("abracadabra"));
+#endregion
+
+#region Swap
+//Hello World => HEllO WOrld capitalize all vowels
+string Swap(string s)
+{
+    string result = string.Empty;
+    char[] strArray = s.ToCharArray();
+    char[] vowels = { 'a', 'e', 'i', 'u', 'o', 'A', 'E', 'I', 'O', 'U' };
+
+    for (int i = 0; i < strArray.Length; i++)
+    {
+        bool hasUpperChar = false;
+        for (int j = 0; j < vowels.Length; j++)
+        {
+            if (strArray[i] == vowels[j])
+            {
+                hasUpperChar = true;
+                result += strArray[i].ToString().ToUpper();
+                continue;
+            }
+        }
+        if (!hasUpperChar)
+            result += strArray[i];
+    }
+
+    return result;
+}
+Console.WriteLine(Swap("Hello World"));
+
+//other stuff
+string Swap2(string s)
+{
+    return string.Concat(s.Select(x => "aeiou".Contains(x) ? char.ToUpper(x) : x));
+}
+#endregion
+
+#region Haha counter
+//HaHaHa => male ; hahaha => female
+int KookaCounter(string laughing)
+
+{
+    //unfinished
+    int male = 0;
+    int female = 0;
+    char[] strArray = laughing.ToCharArray();
+
+
+    for (int i = 0; i < strArray.Length; i++)
+    {
+        if ((strArray[i] != strArray[i + 2]))
+        {
+            if (strArray[i] == 'H')
+            {
+                male++;
+                female++;
+            }
+            else if (strArray[i] == 'h')
+            {
+                male++;
+            }
+        }
+
+    }
+
+    return male + female;
+}
+Console.WriteLine(KookaCounter("HaHaHahahaHaHa"));
 #endregion
