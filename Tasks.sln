@@ -19,11 +19,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pow", "Pow\Pow.csproj", "{E
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "String", "String", "{70986F6E-0024-4A47-B0AF-E8E8B0AF399E}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Solutions", "Solutions\Solutions.csproj", "{04407376-91F3-438C-8DC5-06F3FC2FADAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Strings", "Solutions\Strings.csproj", "{04407376-91F3-438C-8DC5-06F3FC2FADAF}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{F1FD3D44-0456-4AF6-AD27-8DD923F4C65A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "matematic", "matematic\matematic.csproj", "{331E6C62-BDEE-4EB3-A597-AC444ACA375A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matematic", "matematic\matematic.csproj", "{331E6C62-BDEE-4EB3-A597-AC444ACA375A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

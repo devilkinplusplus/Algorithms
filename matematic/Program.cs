@@ -1,4 +1,6 @@
-﻿#region High and Low string numer
+﻿#region High and Low string num
+using System.Collections.Generic;
+
 string HighAndLow(string numbers)//1 2 3 4 5
 {
     string result = string.Empty;
@@ -60,12 +62,93 @@ int NbYear(int p0, double percent, int aug, int p)
 
     while (p0 < p)
     {
-        temp = p0 + p0 * percent/100 + aug;
+        temp = p0 + p0 * percent / 100 + aug;
         p0 = (int)temp;
         year++;
     }
 
     return year;
 }
-Console.WriteLine(NbYear(1000, 2,50, 1200));
+Console.WriteLine(NbYear(1000, 2, 50, 1200));
+#endregion
+
+
+#region Trinagual numbers
+/*
+ * 1  ; * * 2 ; * * * 3
+        *       * *
+        *       *
+ */
+int Triangular(int n)
+{
+    int count = 0;
+    for (int i = 0; i < n; i++)
+    {
+        for (int j = i; j < n; j++)
+        {
+            count++;
+        }
+    }
+
+    return count;
+}
+Console.WriteLine(Triangular(3));
+#endregion
+
+#region Sum triangular numbers
+// 6
+// 1,1+2,1+2+3,1+2+3+4,1+2+3+4+5,1+2+3+4+5+6
+// 56
+int SumTriangularNumbers(int n)
+{
+    int sum = 0;
+    for (int i = n; i > 0; i--)
+    {
+        for (int j = i; j > 0; j--)
+        {
+            sum += j;
+        }
+    }
+    return sum;
+}
+Console.WriteLine(SumTriangularNumbers(6));
+#endregion
+
+#region Centered pentagonal numbers
+
+long Pentagonal(long n)
+{
+    if (n <= 0)
+        return -1;
+    return (5 * n * n - 5 * n + 2) / 2;
+}
+
+Console.WriteLine(Pentagonal(4));
+#endregion
+
+
+#region Even fibonacci sums
+
+long Fibonacci(int max)
+{
+    if (max < 2)
+        return 0;
+
+    long ef1 = 0, ef2 = 2;
+    long sum = ef1 + ef2;
+
+    while (ef2 <= max)
+    {
+
+        long ef3 = 4 * ef2 + ef1;
+        if (ef3 > max)
+            break;
+        ef1 = ef2;
+        ef2 = ef3;
+        sum += ef2;
+    }
+
+    return (int)sum;
+}
+Console.WriteLine(Fibonacci(10));
 #endregion

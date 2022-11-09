@@ -1,4 +1,6 @@
 ﻿#region Unique Characters
+using System.Text.RegularExpressions;
+
 bool HasUniqueChars(string str)
 {
     bool isContains = true;
@@ -102,32 +104,10 @@ string Swap2(string s)
 #region Haha counter
 //HaHaHa => male ; hahaha => female
 int KookaCounter(string laughing)
-
 {
-    //unfinished
-    int male = 0;
-    int female = 0;
-    char[] strArray = laughing.ToCharArray();
-
-
-    for (int i = 0; i < strArray.Length; i++)
-    {
-        if ((strArray[i] != strArray[i + 2]))
-        {
-            if (strArray[i] == 'H')
-            {
-                male++;
-                female++;
-            }
-            else if (strArray[i] == 'h')
-            {
-                male++;
-            }
-        }
-
-    }
-
-    return male + female;
+    return Regex.Matches(laughing, "(Ha)+|(ha)+").Count;
 }
 Console.WriteLine(KookaCounter("HaHaHahahaHaHa"));
 #endregion
+
+

@@ -13,9 +13,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Tasks\\Solutions\\Solutions.csproj",
-      "projectName": "Solutions",
-      "projectPath": "C:\\Users\\user\\source\\repos\\Tasks\\Solutions\\Solutions.csproj",
+      "projectUniqueName": "C:\\Users\\user\\source\\repos\\Tasks\\Solutions\\Strings.csproj",
+      "projectName": "Strings",
+      "projectPath": "C:\\Users\\user\\source\\repos\\Tasks\\Solutions\\Strings.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\user\\source\\repos\\Tasks\\Solutions\\obj\\",
       "projectStyle": "PackageReference",
