@@ -25,6 +25,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Math", "Math", "{F1FD3D44-0
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "matematic", "matematic\matematic.csproj", "{331E6C62-BDEE-4EB3-A597-AC444ACA375A}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Funny", "Funny", "{7A10FE3E-6D68-49F3-A179-C476AB09BEC0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunnyProjects", "FunnyProjects\FunnyProjects.csproj", "{30BA5B87-24EA-4523-871E-5835C75E4EFA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -55,6 +59,10 @@ Global
 		{331E6C62-BDEE-4EB3-A597-AC444ACA375A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{331E6C62-BDEE-4EB3-A597-AC444ACA375A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{331E6C62-BDEE-4EB3-A597-AC444ACA375A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BA5B87-24EA-4523-871E-5835C75E4EFA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BA5B87-24EA-4523-871E-5835C75E4EFA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BA5B87-24EA-4523-871E-5835C75E4EFA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BA5B87-24EA-4523-871E-5835C75E4EFA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -65,6 +73,7 @@ Global
 		{EA7E78A9-DE88-4FE6-9355-120FC4A5F083} = {69FFAD15-3DF3-4633-A69D-488346BA5369}
 		{04407376-91F3-438C-8DC5-06F3FC2FADAF} = {70986F6E-0024-4A47-B0AF-E8E8B0AF399E}
 		{331E6C62-BDEE-4EB3-A597-AC444ACA375A} = {F1FD3D44-0456-4AF6-AD27-8DD923F4C65A}
+		{30BA5B87-24EA-4523-871E-5835C75E4EFA} = {7A10FE3E-6D68-49F3-A179-C476AB09BEC0}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {35ECB51D-1EC9-463A-9304-695C718341EF}

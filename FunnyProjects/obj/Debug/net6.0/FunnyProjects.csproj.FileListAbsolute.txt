@@ -1,0 +1,15 @@
+C:\Users\user\source\repos\Tasks\FunnyProjects\bin\Debug\net6.0\FunnyProjects.exe
+C:\Users\user\source\repos\Tasks\FunnyProjects\bin\Debug\net6.0\FunnyProjects.deps.json
+C:\Users\user\source\repos\Tasks\FunnyProjects\bin\Debug\net6.0\FunnyProjects.runtimeconfig.json
+C:\Users\user\source\repos\Tasks\FunnyProjects\bin\Debug\net6.0\FunnyProjects.dll
+C:\Users\user\source\repos\Tasks\FunnyProjects\bin\Debug\net6.0\FunnyProjects.pdb
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\FunnyProjects.csproj.AssemblyReference.cache
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\FunnyProjects.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\FunnyProjects.AssemblyInfoInputs.cache
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\FunnyProjects.AssemblyInfo.cs
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\FunnyProjects.csproj.CoreCompileInputs.cache
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\FunnyProjects.dll
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\refint\FunnyProjects.dll
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\FunnyProjects.pdb
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\FunnyProjects.genruntimeconfig.cache
+C:\Users\user\source\repos\Tasks\FunnyProjects\obj\Debug\net6.0\ref\FunnyProjects.dll
