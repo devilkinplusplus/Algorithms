@@ -152,3 +152,21 @@ long Fibonacci(int max)
 }
 Console.WriteLine(Fibonacci(10));
 #endregion
+
+
+#region Find the n highest elements in a list
+Console.WriteLine("=====");
+List<int> list = new()
+{
+    10, 9, 8, 7, 6, 5, 4, 3, 2, 1
+};
+List<int> Largest(int n, List<int> xs)
+{
+    var list = xs.OrderByDescending
+        (x => x).
+        Take(n)
+        .ToList();
+    return list.OrderBy(x => x).ToList();
+}
+Console.WriteLine(Largest(2, list));
+#endregion

@@ -1,9 +1,9 @@
-﻿#region Cats and rafs
+﻿
+#region Cats and rafs
 //1 5 => 2
 //2 5 => 1
 //3 7 => 2
 //unfinished
-using System.Runtime.CompilerServices;
 
 int Cats(int start, int finish)
 {
@@ -80,6 +80,6 @@ string Spoonerize(string str)
 
     return result;
 }
-Console.WriteLine(Spoonerize("pack of lies"));
 
+Console.WriteLine(Spoonerize("pack of lies"));
 #endregion
