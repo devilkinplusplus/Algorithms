@@ -1,8 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "z60elXmx8iJDlFlsZKkHbbUAP0LXAAGfQUAUAcAXMDGJ/nVL+9rMwvPYnomjEJebo0rQqJROmvW9dJso/o8DQQ==",
+  "dgSpecHash": "OA01nwsrszbNLcOiyaSz+/G237ev4AC8tGNkAQkFDWZuYuup1uv6gb2uAe06KCchwbAPIyhZha49n731jHlbUw==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\Tasks\\FunnyProjects\\FunnyProjects.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
+    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
+  ],
   "logs": []
 }
