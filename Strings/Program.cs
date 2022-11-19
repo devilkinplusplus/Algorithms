@@ -110,4 +110,12 @@ int KookaCounter(string laughing)
 Console.WriteLine(KookaCounter("HaHaHahahaHaHa"));
 #endregion
 
-
+#region Shorter Reverse Longer
+string ShorterReverseLonger(string a, string b)
+{
+    a ??= "";
+    b ??= "";
+    return b.Length > a.Length ? a + string.Concat(b.Reverse()) + a : b + string.Concat(a.Reverse()) + b;
+}
+Console.WriteLine(ShorterReverseLonger("b_notempty", "b_notempty"));
+#endregion
