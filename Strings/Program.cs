@@ -1,5 +1,7 @@
 ﻿#region Unique Characters
+using System.Globalization;
 using System.Text.RegularExpressions;
+using static System.Net.Mime.MediaTypeNames;
 
 bool HasUniqueChars(string str)
 {
@@ -118,4 +120,35 @@ string ShorterReverseLonger(string a, string b)
     return b.Length > a.Length ? a + string.Concat(b.Reverse()) + a : b + string.Concat(a.Reverse()) + b;
 }
 Console.WriteLine(ShorterReverseLonger("b_notempty", "b_notempty"));
+#endregion
+
+
+#region LongestRepetition
+
+Tuple<char?, int> LongestRepetition(string input)
+{
+    if (input != string.Empty)
+    {
+        string longestRun = new string(input.Select((c, index) => input.Substring(index).TakeWhile(e => e == c))
+                                       .OrderByDescending(e => e.Count())
+                                       .First().ToArray());
+        int s = longestRun.Length;
+        return new Tuple<char?, int>(longestRun[0], s);
+    }
+
+    return new Tuple<char?, int>(null, 0);
+}
+Console.WriteLine(LongestRepetition("adbsadssadsaaa"));// 'a',4
+#endregion
+
+#region string to PascalCase
+
+string PascalCase(string str)
+{
+    var textInfo = new CultureInfo("en-US").TextInfo;
+    var titleCaseStr = textInfo.ToTitleCase(str);
+
+    return titleCaseStr.Replace(" ","");
+}
+Console.WriteLine(PascalCase("test case"));//HelloWorld
 #endregion
