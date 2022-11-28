@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "TW1xut1wskeVG8NNiM5PgMFQNiESpdAhxcxvv1bPaOsBqjX4Yp56CnRjqhtdpewcQCABckTHLdzgkqq0xYmTQw==",
+  "dgSpecHash": "3XPrHJXxkY0uLjl/yFReCV49bbKN7JLrR0fuog5BFcJCRITF9mdEeBnOGww7ecSVXdRQrl5QQeSExMbd+uGcUQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\Tasks\\Sumarries\\Sumarries.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

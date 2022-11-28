@@ -152,3 +152,36 @@ string PascalCase(string str)
 }
 Console.WriteLine(PascalCase("test case"));//HelloWorld
 #endregion
+
+#region 
+//CreatePhoneNumber(new int[] {1, 2, 3, 4, 5, 6, 7, 8, 9, 0}) 
+// => returns "(123) 456-7890"
+string CreatePhoneNumber(int[] numbers)
+{
+    string result = "(";
+    for (int i = 0; i < 3; i++)
+    {
+        result += numbers[i];
+    }
+    result+= ") ";
+
+    for (int i = 3; i < 6; i++)
+    {
+        result += numbers[i];
+    }
+    result += "-";
+
+    for (int i = 6; i < numbers.Length; i++)
+    {
+        result += numbers[i];
+    }
+    return result;
+}
+Console.WriteLine(CreatePhoneNumber(new int[] { 1, 2, 3, 4, 5, 6, 7, 8, 9, 0}));
+
+//other way
+string CreatePhoneNumber2(int[] numbers)
+{
+    return long.Parse(string.Concat(numbers)).ToString("(000) 000-0000");
+}
+#endregion

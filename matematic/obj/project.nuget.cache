@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "1PYz+4r58eSq//wGAm0zzmTTh6uX1VaxjKCpe1OjyF3YHuYRLsktK6cyvQUovKdC3dBMfHe6AuBC3MhpDPBcDg==",
+  "dgSpecHash": "EB98Zj/GycJBKSr9LLZ0MbSxkHcjF8NfrvAiSSbEyWvh7eznxH8b4k+HKGUMbVHm4C1PYIKWGR+o7vlccF1bYQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\user\\source\\repos\\Tasks\\matematic\\matematic.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.11\\microsoft.windowsdesktop.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.11\\microsoft.netcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.11\\microsoft.aspnetcore.app.ref.6.0.11.nupkg.sha512",
-    "C:\\Users\\user\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\6.0.11\\microsoft.netcore.app.host.win-x64.6.0.11.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
